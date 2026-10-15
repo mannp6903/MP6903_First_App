@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Habits – Simple habit tracker</title>
+    <meta name="description" content="Daily Habits is a simple, private habit tracker for iPhone and Android. Check off your habits each day and build streaks.">
+    <link rel="icon" href="mobile-app/assets/favicon.png">
+    <style>
+        :root { --accent: #4F6BED; --text: #1B1D29; --muted: #626780; --bg: #F6F7FB; --card: #FFFFFF; --border: #E4E6EF; }
+        * { box-sizing: border-box; }
+        body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; color: var(--text); background: var(--bg); line-height: 1.6; }
+        main { max-width: 880px; margin: 0 auto; padding: 48px 20px 64px; }
+        .hero { display: flex; gap: 40px; align-items: center; flex-wrap: wrap; }
+        .hero-text { flex: 1 1 320px; }
+        .app-icon { width: 96px; height: 96px; border-radius: 22px; box-shadow: 0 8px 24px rgba(79, 107, 237, 0.3); }
+        h1 { font-size: 40px; line-height: 1.15; margin: 20px 0 12px; }
+        .tagline { font-size: 19px; color: var(--muted); margin: 0 0 24px; }
+        .badges { display: flex; gap: 12px; flex-wrap: wrap; }
+        .badge { padding: 10px 18px; border-radius: 12px; background: var(--text); color: #fff; font-weight: 600; font-size: 15px; }
+        .badge small { display: block; font-weight: 400; font-size: 12px; opacity: 0.75; }
+        .screenshot { flex: 0 1 300px; width: 100%; max-width: 300px; border-radius: 28px; border: 1px solid var(--border); box-shadow: 0 12px 40px rgba(27, 29, 41, 0.12); }
+        h2 { font-size: 24px; margin: 56px 0 16px; }
+        .features { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; }
+        .feature { background: var(--card); border: 1px solid var(--border); border-radius: 16px; padding: 20px; }
+        .feature h3 { margin: 0 0 6px; font-size: 17px; }
+        .feature p { margin: 0; color: var(--muted); }
+        a { color: var(--accent); }
+        footer { margin-top: 56px; padding-top: 20px; border-top: 1px solid var(--border); color: var(--muted); font-size: 14px; }
+    </style>
+</head>
+<body>
+<main>
+    <section class="hero">
+        <div class="hero-text">
+            <img class="app-icon" src="mobile-app/assets/icon.png" alt="Daily Habits app icon">
+            <h1>Daily Habits</h1>
+            <p class="tagline">A simple, private habit tracker. Check off your habits each day and watch your streaks grow.</p>
+            <div class="badges">
+                <span class="badge"><small>Coming soon to the</small>App Store</span>
+                <span class="badge"><small>Coming soon to</small>Google Play</span>
+            </div>
+        </div>
+        <img class="screenshot" src="mobile-app/assets/screenshots/preview.png" alt="Daily Habits app showing three habits with their weekly check-offs and streaks">
+    </section>
+
+    <h2>Features</h2>
+    <div class="features">
+        <div class="feature"><h3>✓ One tap a day</h3><p>Tap a day to check off a habit. See the whole week at a glance.</p></div>
+        <div class="feature"><h3>🔥 Streaks</h3><p>Every habit shows how many days in a row you've kept it up.</p></div>
+        <div class="feature"><h3>🔒 Private</h3><p>No account, no ads, no tracking. Your data never leaves your phone.</p></div>
+    </div>
+
+    <h2 id="support">Support</h2>
+    <p><strong>Add a habit:</strong> type its name at the bottom of the screen and tap <em>Add</em>.</p>
+    <p><strong>Check off a day:</strong> tap the circle under that day. Tap it again to undo.</p>
+    <p><strong>Delete a habit:</strong> press and hold it, then tap <em>Delete</em>.</p>
+    <p><strong>Where is my data?</strong> Only on your phone. Uninstalling the app deletes it.</p>
+    <p>Questions, bugs or ideas? Email <a href="mailto:mannp6903@gmail.com">mannp6903@gmail.com</a>.</p>
+
+    <footer>
+        © 2026 Mann Patel · <a href="privacy.html">Privacy Policy</a>
+    </footer>
+</main>
+</body>
+</html>
