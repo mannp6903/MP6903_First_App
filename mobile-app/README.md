@@ -72,7 +72,11 @@ npx eas-cli@latest submit --platform android   # uploads to Google Play Console
 - **App Store:** `eas submit` creates the App Store Connect record. Then fill in the listing in App Store Connect and
   press *Submit for Review*.
 
-### 5. Store listing checklist
+### 5. Store listing
+
+All screenshots, the feature graphic and the listing text are ready in [`store/`](store/README.md).
+
+#### Checklist
 
 - App name, short and full description
 - Screenshots (iPhone 6.9" and Android phone, at minimum)
