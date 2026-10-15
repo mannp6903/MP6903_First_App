@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="432" height="432" viewBox="0 0 432 432"><defs>
+<mask id="cut" maskUnits="userSpaceOnUse" x="-512" y="-512" width="1024" height="1024"><rect x="-512" y="-512" width="1024" height="1024" fill="#fff"/><circle cx="190" cy="-195" r="124" fill="#000"/><path d="M-160 40 L-65 135 L110 -55" fill="none" stroke="#000" stroke-width="72" stroke-linecap="round" stroke-linejoin="round"/></mask>
+<mask id="flame" maskUnits="userSpaceOnUse" x="-120" y="-120" width="240" height="240"><circle r="104" fill="#fff"/><path d="M0 -70 C 40 -30 62 0 58 30 C 54 64 28 82 0 82 C -28 82 -54 64 -58 30 C -60 5 -45 -15 -30 -30 C -28 -5 -18 8 -5 10 C -10 -25 -15 -45 0 -70 Z" fill="#000"/></mask>
+</defs><g transform="translate(216 216) scale(0.336)">
+<circle cx="-30" cy="35" r="280" fill="#fff" mask="url(#cut)"/>
+<g transform="translate(190 -195)"><circle r="104" fill="#fff" mask="url(#flame)"/></g>
+</g></svg>

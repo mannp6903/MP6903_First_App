@@ -35,7 +35,7 @@ Builds happen in the cloud with **EAS**, so you do **not** need a Mac or Android
 
 1. If someone else already owns the IDs, change `ios.bundleIdentifier` and `android.package` in `app.json`
    (currently `com.mannpatel.dailyhabits`). They must be unique and **cannot change after publishing**.
-2. Replace the placeholder icons in `assets/` with your own (`icon.png` must be 1024×1024, no transparency).
+2. The app icon is in `assets/` (sources and export notes in `assets/source/`). To change it, edit the SVGs and re-export.
 3. Host the privacy policy (`../privacy.html` in this repo, e.g. via GitHub Pages) — both stores ask for its URL.
 
 ### 2. Log in and link the project
