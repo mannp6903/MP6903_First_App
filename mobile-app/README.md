@@ -36,7 +36,9 @@ Builds happen in the cloud with **EAS**, so you do **not** need a Mac or Android
 1. If someone else already owns the IDs, change `ios.bundleIdentifier` and `android.package` in `app.json`
    (currently `com.mannpatel.dailyhabits`). They must be unique and **cannot change after publishing**.
 2. The app icon is in `assets/` (sources and export notes in `assets/source/`). To change it, edit the SVGs and re-export.
-3. Host the privacy policy (`../privacy.html` in this repo, e.g. via GitHub Pages) — both stores ask for its URL.
+3. The app's website is published with GitHub Pages from the repo root. Use these links in the store listings:
+   - **Privacy policy URL** (both stores): https://mannp6903.github.io/MP6903_First_App/privacy.html
+   - **Support / marketing URL** (App Store): https://mannp6903.github.io/MP6903_First_App/
 
 ### 2. Log in and link the project
 
